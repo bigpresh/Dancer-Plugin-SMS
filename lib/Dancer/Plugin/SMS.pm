@@ -122,6 +122,13 @@ by the Free Software Foundation; or the Artistic License.
 
 See http://dev.perl.org/licenses/ for more information.
 
+=head1 SEE ALSO
+
+L<Dancer>
+
+L<SMS::Send::AQL> and L<SMS::Send>
+
+L<http://www.aql.com/>
 
 =cut
 
