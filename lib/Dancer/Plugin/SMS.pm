@@ -94,7 +94,7 @@ register_plugin;
 
 =head1 AUTHOR
 
-David Precious, C<< <davidp at preshweb.co.uk> >>
+David Precious, C<< <davidp@preshweb.co.uk> >>
 
 =head1 BUGS
 
