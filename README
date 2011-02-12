@@ -5,7 +5,7 @@ SYNOPSIS
     In your Dancer app:
 
         # Positional params ($to, $message)
-        sms '+440788....', 'Hello there!';
+        sms '+44788....', 'Hello there!';
 
         # Or named params
         sms to => '+44...', text => 'Hello!';
@@ -75,7 +75,7 @@ LICENSE AND COPYRIGHT
 SEE ALSO
     Dancer
 
-    SMS::Send::AQL and SMS::Send
+    SMS::Send
 
     http://www.aql.com/
 

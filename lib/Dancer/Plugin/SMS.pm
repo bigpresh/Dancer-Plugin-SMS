@@ -16,7 +16,7 @@ Dancer::Plugin::SMS - Easy SMS sending from Dancer apps
 In your Dancer app:
 
     # Positional params ($to, $message)
-    sms '+440788....', 'Hello there!';
+    sms '+44788....', 'Hello there!';
 
     # Or named params
     sms to => '+44...', text => 'Hello!';
