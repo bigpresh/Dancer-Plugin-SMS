@@ -18,4 +18,14 @@ WriteMakefile(
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'Dancer-Plugin-SMS-*' },
+    META_MERGE => {
+        'meta-spec' => { version => 2 },
+        resources => {
+            repository => {
+                type => 'git',
+                url  => 'https://github.com/bigpresh/Dancer-Plugin-SMS.git',
+                web  => 'https://github.com/bigpresh/Dancer-Plugin-SMS',
+            },
+        },
+    },
 );
