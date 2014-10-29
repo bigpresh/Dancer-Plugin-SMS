@@ -8,7 +8,7 @@ our $VERSION = '0.01';
 
 =head1 NAME
 
-Dancer::Plugin::SMS - Easy SMS sending from Dancer apps
+Dancer::Plugin::SMS - Easy SMS text message sending from Dancer apps
 
 
 =head1 SYNOPSIS
@@ -38,7 +38,7 @@ details) - example configuration for using L<SMS::Send::AQL>:
 Provides a quick and easy way to send SMS messages using L<SMS::Send> drivers
 (of which there are many, so chances are the service you want to use is already
 supported; if not, they're easy to write, and if you want to change providers
-later, you can simply update a few lines in your config file, and you're done.
+later, you can simply update a few lines in your config file, and you're done).
 
 
 =head1 Keywords
